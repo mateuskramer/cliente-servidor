@@ -31,19 +31,24 @@ Também da camada de transporte, o UDP é sem conexão e não confiável — nã
 
 👁️‍🗨️Exemplo Visual:
 
-Servidor tcp
+## Teste com protocolo TCP
+
+### Servidor 
 
 https://github.com/user-attachments/assets/85c44e3f-7097-435e-a7ff-072d941d6647
 
-servidor udp
-
-https://github.com/user-attachments/assets/a50e49f9-c5cb-491c-a38c-8544dd18c739
-
-cliente tcp
+### Cliente
 
 https://github.com/user-attachments/assets/888435d7-086b-4574-bc51-16a2e09cc5ec
 
-cliente udp
+
+## Teste com protocolo UDP
+
+### Servidor 
+
+https://github.com/user-attachments/assets/a50e49f9-c5cb-491c-a38c-8544dd18c739
+
+### Cliente 
 
 https://github.com/user-attachments/assets/79395cd1-9287-4c12-9c8d-2b162b45ea87
 
