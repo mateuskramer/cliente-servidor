@@ -1,6 +1,25 @@
 # T1 cliente-servidor
 
 Implementação de teste de comunicação entre cliente e servidor com sockets, onde o cliente mede a latência (RTT) entre envio e resposta de mensagens do tipo "ping". Essa é uma simulação bem próxima do comando ping do sistema operacional, mas feita usando UDP e TCP em Python.
+💻 Neste trabalho, estamos desenvolvendo uma aplicação em Python para testar a comunicação entre um cliente e um servidor, utilizando a tecnologia de sockets com os protocolos UDP e TCP.
+
+O cliente envia mensagens chamadas "ping" para o servidor, que responde com "pong". A cada envio, o cliente mede o tempo que a resposta demora para voltar, conhecido como latência ou RTT.
+
+🧠 Conceitos importantes:
+Ping: é uma mensagem simples enviada de um computador para outro com o objetivo de testar se há resposta e medir o tempo de ida e volta da mensagem. É como perguntar "Você está aí?" e esperar pela resposta.
+
+Latência (RTT): significa Round Trip Time (tempo de ida e volta). É o intervalo entre o momento em que o cliente envia o "ping" e o momento em que ele recebe o "pong" do servidor. Mede a velocidade da resposta da comunicação.
+
+📈 Processo resumido:
+Servidor inicia e fica esperando mensagens.
+
+Cliente envia um "ping 1", "ping 2", ..., até 10 pings.
+
+O servidor responde com "pong: ping 1", e assim por diante.
+
+O cliente mede o tempo entre envio e recebimento da resposta.
+
+Ao final, temos uma noção da latência da rede ou da eficiência da comunicação.
 
 TCP (Transmission Control Protocol)
 É um protocolo da camada de transporte, orientado à conexão e confiável. Garante que os dados cheguem sem erros, na ordem correta e sem perdas, usando confirmações e retransmissões. É mais lento e pesado, mas ideal para aplicações como web (HTTP), e-mail, FTP e SSH.
