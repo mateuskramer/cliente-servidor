@@ -10,11 +10,12 @@ Ping: é uma mensagem simples enviada de um computador para outro com o objetivo
 Latência (RTT): significa Round Trip Time (tempo de ida e volta). É o intervalo entre o momento em que o cliente envia o "ping" e o momento em que ele recebe o "pong" do servidor. Mede a velocidade da resposta da comunicação.
 
 📈 Processo resumido:
+
 Servidor inicia e fica esperando mensagens.
 
 Cliente envia um "ping 1", "ping 2", ..., até 10 pings.
 
-O servidor responde com "pong: ping 1", e assim por diante.
+O servidor responde com "ping: ping 1", e assim por diante.
 
 O cliente mede o tempo entre envio e recebimento da resposta.
 
@@ -29,7 +30,9 @@ UDP (User Datagram Protocol)
 Também da camada de transporte, o UDP é sem conexão e não confiável — não garante entrega nem ordem dos dados. Por ser mais leve e rápido, é usado em jogos online, vídeo ao vivo, VoIP e DNS, onde a velocidade é mais importante que a confiabilidade.
 
 👁️‍🗨️Exemplo Visual:
+
 Servidor tcp
+
 https://github.com/user-attachments/assets/85c44e3f-7097-435e-a7ff-072d941d6647
 
 servidor udp
