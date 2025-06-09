@@ -41,10 +41,11 @@ https://github.com/user-attachments/assets/a50e49f9-c5cb-491c-a38c-8544dd18c739
 
 cliente tcp
 
-https://github.com/user-attachments/assets/7ee318dc-a92b-4927-a902-da82e4fcd3d1
+https://github.com/user-attachments/assets/888435d7-086b-4574-bc51-16a2e09cc5ec
 
 cliente udp
 
-https://github.com/user-attachments/assets/6383919f-b913-44d2-8bb1-cdc1922c00c1
+https://github.com/user-attachments/assets/79395cd1-9287-4c12-9c8d-2b162b45ea87
+
 
 
