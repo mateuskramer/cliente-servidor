@@ -2,15 +2,12 @@
 
 Implementação de teste de comunicação entre cliente e servidor com sockets, onde o cliente mede a latência (RTT) entre envio e resposta de mensagens do tipo "ping". Essa é uma simulação bem próxima do comando ping do sistema operacional, mas feita usando UDP e TCP em Python.
 
-O UDP (User Datagram Protocol) É um protocolo da camada de transporte, sem conexão, o que significa que o cliente pode enviar mensagens diretamente para o endereço IP e porta do servidor, sem a necessidade de estabelecer uma conexão com funções como connect() ou accept().
+TCP (Transmission Control Protocol)
+É um protocolo da camada de transporte, orientado à conexão e confiável. Garante que os dados cheguem sem erros, na ordem correta e sem perdas, usando confirmações e retransmissões. É mais lento e pesado, mas ideal para aplicações como web (HTTP), e-mail, FTP e SSH.
 
-Por ser um protocolo não confiável, o UDP não garante que os dados cheguem ao destino, não confirma a entrega, não mantém a ordem dos pacotes e não realiza retransmissões em caso de perda. Por outro lado, justamente por dispensar esses controles, o UDP é muito mais leve e rápido, sendo ideal para aplicações que priorizam velocidade e podem tolerar alguma perda de dados, como jogos online, transmissões de vídeo ou áudio em tempo real (streaming), chamadas por voz (VoIP) e consultas DNS.
+UDP (User Datagram Protocol)
+Também da camada de transporte, o UDP é sem conexão e não confiável — não garante entrega nem ordem dos dados. Por ser mais leve e rápido, é usado em jogos online, vídeo ao vivo, VoIP e DNS, onde a velocidade é mais importante que a confiabilidade.
 
-Já o TCP (Transmission Control Protocol) é um protocolo da camada de transporte, amplamente utilizado quando se exige uma comunicação confiável entre dois computadores. Ao contrário do UDP, o TCP é um protocolo orientado à conexão, ou seja, antes de qualquer troca de dados, é necessário estabelecer uma conexão entre cliente e servidor por meio de um processo conhecido como handshake.
-
-Uma vez estabelecida a conexão, o TCP garante que todos os dados enviados cheguem corretamente ao destino, na mesma ordem em que foram transmitidos e sem perdas. Isso é possível graças a mecanismos internos como confirmação de recebimento (ACK), controle de fluxo, controle de congestionamento e retransmissão de pacotes quando necessário. Por essas razões, o TCP é considerado um protocolo confiável, embora seja naturalmente mais lento e pesado do que o UDP, justamente por causa desses controles adicionais.
-
-Devido à sua confiabilidade, o TCP é amplamente utilizado em aplicações onde a integridade dos dados é essencial, como na navegação na web (HTTP/HTTPS), envio de e-mails (SMTP), transferência de arquivos (FTP) e acesso remoto (SSH).
 
 Servidor tcp
 
