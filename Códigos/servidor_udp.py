@@ -1,7 +1,7 @@
 import socket
 
 # Configurações do servidor
-HOST = 'localhost'  # ou '0.0.0.0' para aceitar conexões de qualquer IP
+HOST = 'localhost'  
 PORT = 12345        # Porta para escutar
 
 # Criando o socket UDP
