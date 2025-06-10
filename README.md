@@ -6,7 +6,7 @@ O cliente envia mensagens chamadas "ping" para o servidor, que responde. A cada 
 
 > [!IMPORTANT]
 >- Ping: é uma mensagem simples enviada de um computador para outro com o objetivo de testar se há resposta e medir o tempo de ida e volta da mensagem. É como perguntar "Você está aí?" e esperar pela resposta.
->- Latência (RTT): significa Round Trip Time (tempo de ida e volta). É o intervalo entre o momento em que o cliente envia o "ping" e o momento em que ele recebe o "pong" do servidor. Mede a velocidade da resposta da comunicação.
+>- Latência (RTT): significa Round Trip Time (tempo de ida e volta). É o intervalo entre o momento em que o cliente envia o "ping" e o momento em que ele recebe o "ping" do servidor. Mede a velocidade da resposta da comunicação.
 
 ## 📈 Processo resumido:
 
